@@ -1,8 +1,9 @@
-import math
+from math import ceil
+
 
 def square(a):
-    return math.ceil(a*a)
+    return ceil(a*a)
+
 
 side = float(input("Введите сторону квадрата: "))
 print(f"Площадь квадрата: {square(side)}")
-
